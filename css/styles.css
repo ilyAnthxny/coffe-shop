@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size:  50px;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.paragraph{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+img{
+    max-width: 500px;
+}
