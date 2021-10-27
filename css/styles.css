@@ -2,12 +2,70 @@ body{
     margin: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Satisfy', cursive;
+    background-color: #ececea;
 }
 
 h1{
     font-family: 'Satisfy', cursive;
     font-size:  50px;
 }
+
+.img-banner{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.banner{
+}
+
+.img-article{
+    max-width: 400px;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.header-content{
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #99604c;
+}
+
+.banner-title{
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #99604c;
+    font-size: 100px;
+    text-shadow: 7px 5px black;
+}
+
+.logo-coffe{
+    color: #99604c;
+}
+
+.logos{
+    display: block;
+}
+
+.hamburger{
+    display: block;
+}
+
+/* Articles */
 
 h2{
     font-family: 'Lato', sans-serif;
@@ -19,6 +77,14 @@ h2{
     font-weight: 100;
 }
 
-img{
-    max-width: 500px;
+.article{
+    background-color: rgba(233, 215, 116, 0.631);
+    height: 400px;
+    width: 600px;
+}
+
+
+.section{
+    padding: 30px;
+    background-color: cadetblue;
 }
